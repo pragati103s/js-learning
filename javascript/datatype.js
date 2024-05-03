@@ -34,3 +34,41 @@ let isloggedin = false
 console.log(typeof("hello"));
 console.log(typeof null);
 //  it shows object, null is an object
+
+
+// type of datatype
+
+
+// Primitive 7 type, call by value
+// String, Number, Boolean, null, undefined, Symbol, BigInt
+
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId)
+// output == false   because symbol make values uniques
+ 
+
+
+// Non Primitive Reference
+// Array, Objects, Functions
+const heros = ["shaktiman", "naagraj", "doga"]
+let myObj = {
+    name: "hitesh",
+    age: 22,
+
+}
+
+const myFunction = function(){
+    console.log("hello");
+}
+
+// typeof()   this is used to know datatype of any variable
+// but for null it gives object
+// function  gives  object function
+// and all non primitive gives function
+
+// Javascript is statically typed or dynamically typed  ??? 
+
+
