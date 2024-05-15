@@ -72,3 +72,18 @@ const myFunction = function(){
 // Javascript is statically typed or dynamically typed  ??? 
 
 
+
+
+
+
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack  (Primitive), Heap  (Non-Primitive)
+// In stack we get only copy of value
+//  but in non primitive, get original value
+
